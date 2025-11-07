@@ -1,0 +1,45 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+nav a {
+    margin: 0 1em;
+    color: white;
+    text-decoration: none;
+}
+section {
+    padding: 2em;
+}
+.gallery {
+    display: flex;
+    gap: 1em;
+}
+.gallery img {
+    width: 300px;
+    height: auto;
+    border: 1px solid #ccc;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid #aaa;
+}
+th, td {
+    padding: 0.5em;
+    text-align: left;
+}
+footer {
+    background-color: #eee;
+    text-align: center;
+    padding: 1em;
+}
